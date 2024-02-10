@@ -3184,36 +3184,36 @@ video {
   }
 }
 
-@media not all and (min-width: 768px){
-  .max-md\:scrolbar::-webkit-scrollbar {
+@media not all and (min-width: 640px){
+  .max-sm\:scrolbar::-webkit-scrollbar {
     height: 5px;
     -webkit-transition: 300ms linear;
     transition: 300ms linear;
     margin-top: 5px;
   }
 
-  .max-md\:scrolbar::-webkit-scrollbar-track {
+  .max-sm\:scrolbar::-webkit-scrollbar-track {
     background-color: #e4e4e4;
     margin-top: 5px;
     margin-left: 10px;
     border-radius: 100px;
   }
 
-  .max-md\:scrolbar::-webkit-scrollbar {
+  .max-sm\:scrolbar::-webkit-scrollbar {
     height: 5px;
     -webkit-transition: 300ms linear;
     transition: 300ms linear;
     margin-top: 5px;
   }
 
-  .max-md\:scrolbar::-webkit-scrollbar-track {
+  .max-sm\:scrolbar::-webkit-scrollbar-track {
     background-color: #e4e4e4;
     margin-top: 5px;
     margin-left: 10px;
     border-radius: 100px;
   }
 
-  .max-md\:scrolbar::-webkit-scrollbar-thumb {
+  .max-sm\:scrolbar::-webkit-scrollbar-thumb {
     border-radius: 100px;
     background-color: #ff5300;
     box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
@@ -3491,6 +3491,10 @@ video {
     height: 50px;
   }
 
+  .max-lg\:h-\[60px\]{
+    height: 60px;
+  }
+
   .max-lg\:h-\[80px\]{
     height: 80px;
   }
@@ -3517,6 +3521,14 @@ video {
 
   .max-lg\:w-\[58\.33\%\]{
     width: 58.33%;
+  }
+
+  .max-lg\:w-\[60px\]{
+    width: 60px;
+  }
+
+  .max-lg\:w-\[80px\]{
+    width: 80px;
   }
 
   .max-lg\:min-w-\[35px\]{
@@ -3925,10 +3937,6 @@ video {
     gap: 27px;
   }
 
-  .max-md\:overflow-x-auto{
-    overflow-x: auto;
-  }
-
   .max-md\:p-\[18px\]{
     padding: 18px;
   }
@@ -4074,6 +4082,18 @@ video {
     display: none;
   }
 
+  .max-sm\:h-10{
+    height: 2.5rem;
+  }
+
+  .max-sm\:w-\[292px\]{
+    width: 292px;
+  }
+
+  .max-sm\:max-w-10{
+    max-width: 2.5rem;
+  }
+
   .max-sm\:max-w-\[323px\]{
     max-width: 323px;
   }
@@ -4096,6 +4116,10 @@ video {
 
   .max-sm\:gap-\[10px\]{
     gap: 10px;
+  }
+
+  .max-sm\:overflow-x-auto{
+    overflow-x: auto;
   }
 
   .max-sm\:px-3{
@@ -4220,6 +4244,10 @@ video {
 
   .sm\:w-1\/2{
     width: 50%;
+  }
+
+  .sm\:justify-center{
+    justify-content: center;
   }
 
   .sm\:underline{

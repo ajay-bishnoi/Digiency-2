@@ -40,10 +40,10 @@ $(".mySlider").slick({
     {
       breakpoint: 640,
       settings: {
-        autoplay: true,
+        autoplay: false,
         infinite: true,
         autoplaySpeed: 2000,
-        slidesToShow: 1.8,
+        slidesToShow: 1.9,
         slidesToScroll: 1,
       },
     },
@@ -73,10 +73,10 @@ $(".boxSlider").slick({
     {
       breakpoint: 640,
       settings: {
-        autoplay: true,
+        autoplay: false,
         infinite: false,
         autoplaySpeed: 2000,
-        slidesToShow: 1.27,
+        slidesToShow: 1.09,
         slidesToScroll: 1,
       },
     },
